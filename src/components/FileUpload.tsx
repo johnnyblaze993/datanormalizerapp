@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import Papa from 'papaparse';
+import Papa from '@/utils/simplePapa';
 import * as XLSX from 'xlsx';
 
 interface FileUploadProps {
